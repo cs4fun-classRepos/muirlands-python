@@ -1,6 +1,3 @@
-# Lesson plan
-  
-```python
 #Media Computing with Python
 #Day 2 - Draw a house
 
@@ -72,6 +69,3 @@ pendown()
 forward(30)
 hideturtle()
 right(90)
-
-
-```
