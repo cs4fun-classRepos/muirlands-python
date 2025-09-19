@@ -62,5 +62,5 @@ Note. 5/2 in python is 2.5,    5//2 in python is 2
 * Create a filter that change your picture
 
 Examples:
-    * remove all red or blue or green
-    * grey out a picture
+ * remove all red or blue or green
+ * grey out a picture
