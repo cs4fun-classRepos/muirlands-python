@@ -28,7 +28,10 @@ Create a negative effect on the given picture
 ![Cao](Cao.jpg)
 ![negative](negative.jpg)
 
+<div style="page-break-after: always;"></div>
 
 ## 3. Symmetry in image processing
+
+
 ![even width picture](even-width.png)
 ![odd width picture](odd-width.png)
