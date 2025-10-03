@@ -40,3 +40,5 @@ pic.save('newPic.jpg')
 ```
 
 ## 3. Steganography Introduction
+
+# bit.ly/day6-muirlands
