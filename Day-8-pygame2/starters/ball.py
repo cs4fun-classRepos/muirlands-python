@@ -25,6 +25,11 @@ bys=[]
 #######################################
 ### Part 1: Generate speed and location
 ######################################
+for i in range(10):
+  bxs.append(random.randint(0, 200))
+  bys.append(random.randint(0, 200))
+  xspeeds.append(random.randint(-3, 3))
+  yspeeds.append(random.randint(-3, 3))
 
 
 
@@ -38,6 +43,17 @@ while True:
   ################################
   #   Part 2: Complete the game below
   ################################
+  for i in range(10):
+
+    bxs[i] +=xspeeds[i]
+    bys[i] +=yspeeds[i]
+
+    if bxs[i] < 10 or bxs[i] > width - 10:
+      xspeeds[i] *=-1
+    if bys[i] < 10 or bys[i] > height - 10:
+      yspeeds[i] *= -1
+    pygame.draw.circle(surface,(0, 0, 255), (bxs[i], bys[i]),bsize)
+
 
 
 
